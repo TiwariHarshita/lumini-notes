@@ -1,0 +1,140 @@
+.email-login-form {
+  display: grid;
+  gap: 10px;
+}
+
+.email-login-form > label {
+  margin-top: 2px;
+  color: #806f77;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.email-input-wrapper {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0 14px;
+  border: 1px solid
+    rgba(91, 68, 81, 0.14);
+  border-radius: 14px;
+  background: #fffaf7;
+  color: #8f6a82;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
+}
+
+.email-input-wrapper:focus-within {
+  border-color: #8f6a82;
+  box-shadow:
+    0 0 0 3px
+      rgba(143, 106, 130, 0.12);
+  transform: translateY(-1px);
+}
+
+.email-input-wrapper input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #3d3139;
+  font-size: 14px;
+}
+
+.email-input-wrapper input::placeholder {
+  color: #aa9ba2;
+}
+
+.email-submit-button {
+  margin-top: 5px;
+}
+
+.email-submit-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.72;
+  transform: none;
+}
+
+.login-error {
+  margin: 0;
+  padding: 9px 11px;
+  border-radius: 10px;
+  background: rgba(166, 69, 88, 0.09);
+  color: #a64558;
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.email-sent-container {
+  display: grid;
+  gap: 10px;
+}
+
+.email-sent-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid
+    rgba(77, 102, 81, 0.12);
+  border-radius: 15px;
+  background: #e0e7dc;
+  color: #4d6651;
+}
+
+.email-sent-icon {
+  width: 35px;
+  height: 35px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  border-radius: 11px;
+  background: #bfd0b9;
+}
+
+.email-sent-box strong {
+  font-size: 13px;
+}
+
+.email-sent-box p {
+  margin: 5px 0 0;
+  color: #687c6b;
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.try-another-email {
+  min-height: 42px;
+  border: 1px solid
+    rgba(91, 68, 81, 0.12);
+  border-radius: 12px;
+  background: transparent;
+  color: #6f4f65;
+  font-weight: 700;
+}
+
+.try-another-email:hover {
+  background: rgba(
+    143,
+    106,
+    130,
+    0.07
+  );
+}
+
+.login-spinner {
+  animation: login-spinner-animation
+    0.8s linear infinite;
+}
+
+@keyframes login-spinner-animation {
+  to {
+    transform: rotate(360deg);
+  }
+}

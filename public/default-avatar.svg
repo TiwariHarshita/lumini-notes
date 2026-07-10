@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" fill="none">
+  <defs>
+    <linearGradient id="background" x1="18" y1="10" x2="145" y2="154" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E8D5DD"></stop>
+      <stop offset="1" stop-color="#C3A5B5"></stop>
+    </linearGradient>
+
+    <linearGradient id="person" x1="53" y1="35" x2="112" y2="142" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#987288"></stop>
+      <stop offset="1" stop-color="#6E4F62"></stop>
+    </linearGradient>
+
+    <filter id="shadow" x="16" y="18" width="128" height="139" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="7" stdDeviation="7" flood-color="#62495A" flood-opacity="0.22"></feDropShadow>
+    </filter>
+  </defs>
+
+  <rect width="160" height="160" rx="46" fill="url(#background)"></rect>
+
+  <circle cx="130" cy="29" r="14" fill="#F8EFEC" fill-opacity="0.62"></circle>
+
+  <circle cx="30" cy="42" r="8" fill="#F8EFEC" fill-opacity="0.48"></circle>
+
+  <path d="M19 124C39 112 47 93 43 71" stroke="#F6E8E5" stroke-opacity="0.36" stroke-width="2" stroke-linecap="round"></path>
+
+  <path d="M141 102C123 94 116 80 119 62" stroke="#F6E8E5" stroke-opacity="0.34" stroke-width="2" stroke-linecap="round"></path>
+
+  <g filter="url(#shadow)">
+    <circle cx="80" cy="59" r="28" fill="url(#person)"></circle>
+
+    <path d="M31 143C34.5 109.5 52.5 92 80 92C107.5 92 125.5 109.5 129 143H31Z" fill="url(#person)"></path>
+  </g>
+
+  <path d="M55 106C63 114 71 118 80 118C89 118 97 114 105 106" stroke="#B891A5" stroke-width="3" stroke-linecap="round" opacity="0.55"></path>
+
+  <circle cx="132" cy="128" r="10" fill="#F4E8E4" fill-opacity="0.6"></circle>
+</svg>

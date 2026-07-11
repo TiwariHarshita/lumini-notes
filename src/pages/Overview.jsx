@@ -76,7 +76,7 @@ export default function Overview({
             </motion.div>
           )) : (
             <div className="empty-mini">
-              <span>☕</span>
+              <span> </span>
               <p>No events yet. Keep the space or add one.</p>
             </div>
           )}

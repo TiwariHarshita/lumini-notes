@@ -17,7 +17,7 @@ export default function SettingsPage({ user, configured }) {
       <section className="settings-grid">
         <article>
           <span><UserRound size={19}/></span>
-          <div><h4>Google profile</h4><p>Your name and avatar come from Google.</p></div>
+          <div><h4>Profile</h4><p></p></div>
         </article>
         <article>
           <span><Database size={19}/></span>
@@ -29,7 +29,7 @@ export default function SettingsPage({ user, configured }) {
         </article>
         <article>
           <span><Palette size={19}/></span>
-          <div><h4>Appearance</h4><p>Warm plum, blush and cream theme.</p></div>
+          <div><h4>Features</h4><p>Coming Soon</p></div>
         </article>
       </section>
     </div>

@@ -24,13 +24,13 @@ export default function Overview({
         <div>
           <span className="welcome-chip"><Sparkles size={14}/> {format(new Date(), "EEEE, MMMM d")}</span>
           <h2>Hello, {user?.user_metadata?.full_name?.split(" ")[0] || "there"}.</h2>
-          <p>Your day is looking calm. Pick one meaningful thing and begin there.</p>
+          <p>Your day is looking clear. Pick one task and begin.</p>
           <button onClick={onAddEvent}><Plus size={16}/> Plan something</button>
         </div>
         <div className="quote-orbit">
           <div className="orbit-ring ring-a" />
           <div className="orbit-ring ring-b" />
-          <div className="orbit-core">one<br/>thing</div>
+          <div className="orbit-core">Begin</div>
         </div>
       </motion.section>
 

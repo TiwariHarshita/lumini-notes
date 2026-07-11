@@ -347,8 +347,7 @@ export default function LoginScreen({
           )}
 
           <p className="login-footnote">
-            Your planner information stays
-            inside your Supabase project.
+            Routine Redefined
           </p>
         </div>
       </motion.section>
